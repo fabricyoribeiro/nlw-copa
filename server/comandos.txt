@@ -1,0 +1,20 @@
+npm init -y
+npx tsc --init (inicia typescript)
+npm i fastify
+npx tsc (converte ts em js)
+npm i tsx -D (automatiza processor de compilar codigo e executar)
+npm run dev (start server)
+npm i prisma -D
+npm i @prisma/client
+npx prisma init --datasource-provider SQLite (por padrao usa postgres)
+npx prisma migrate dev
+npx prisma studio
+npm i prisma-erd-generator @mermaid-js/mermaid-cli -D 
+npx prisma generate (gerar diahgrama erd)
+npm i @fastify/cors
+
+npx prisma migrate dev (depois de fazer alterações no banco)
+npx prisma db seed (cria dados ficticios no banco)
+npx prisma studio
+npm i zod (validação de dados banco)
+npm i short-unique-id (cria id)
